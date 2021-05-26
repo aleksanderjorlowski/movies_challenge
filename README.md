@@ -7,22 +7,22 @@
 ##Description:
 
 > The task is to simulate situation when you run some data transformations based on data stored in different environment than your transformation script runs.
-To achieve this please follow below steps:
+> To achieve this please follow below steps:
 
-> 1. Create two docker containers  - one with configured relational database and second from which you'll run your data transformations  in your preferable programming language.
-2. Prepare docker compose that allows to run such setup.
-    Download an appropriate publicly available, non-commercial data set from (https://grouplens.org/datasets/movielens/latest/  ml-latest-small.zip) and import it to your database.
+> 1. Create two docker containers  - one with configured relational database and second from which you'll run your data transformations  in your preferable >programming language.
+> 2. Prepare docker compose that allows to run such setup.
+>     Download an appropriate publicly available, non-commercial data set from (https://grouplens.org/datasets/movielens/latest/  ml-latest-small.zip) and import it >to your database.
 
 >*Note: this data set is not provided by ET&S and it is up to the candidate to access this for non-commercial purposes
 
 > 3. Connect to  database form your ‘analytics’ container and answer below questions:
 
 >1. How many movies are in data set ?
-2. What is the most common genre of movie?
-3. What are top 10 movies with highest rate ?
-4. What are 5 most often rating users ?
-5. When was done first and last rate included in data set and what was the rated movie tittle?
-6. Find all movies released in 1990
+> 2. What is the most common genre of movie?
+> 3. What are top 10 movies with highest rate ?
+> 4. What are 5 most often rating users ?
+> 5. When was done first and last rate included in data set and what was the rated movie tittle?
+> 6. Find all movies released in 1990
 
 >Write README.md containing detailed documentation of your solution.
 
