@@ -96,6 +96,7 @@ Additionally, the "requirementrs.txt" file contains information for pip to insta
 `CMD tail -f /dev/null` command at the end of the file runs the script container in continous mode, allowing to start the main.py manually form the bash terminal
 
 ##How does it work - step by step instruction
+
 ###Creating docker containers
 
 Assuming, the docker is installed on the host mashine, but there is no docker image nor containers yet, the first step is to enter the terminal (I use Powershell), go to the project directory and use the `docker compose up` command. This creates script image and both containers and runs them. Now is time to wait for db to go up...
